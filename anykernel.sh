@@ -8,11 +8,11 @@ do.devicecheck=1
 do.initd=1
 do.modules=0
 do.cleanup=1
-device.name1=
-device.name2=
-device.name3=
-device.name4=
-device.name5=
+device.name1=klte
+device.name2=kltedcm
+device.name3=kltekdi
+device.name4=SC-04F
+device.name5=SC-02G
 
 # shell variables
 block=/dev/block/platform/msm_sdcc.1/by-name/boot;
