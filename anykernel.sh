@@ -222,6 +222,10 @@ insert_line init.qcom.rc "import init.carrier.rc" after "import init.qcom.power.
 backup_file ueventd.qcom.rc;
 append_file ueventd.qcom.rc "# Felica" ueventd.qcom.patch;
 
+# boeffla tune
+backup_file init.rc;
+append_file init.rc "Boeffla-Kernel" init.rc.patch;
+
 # end ramdisk changes
 
 write_boot;
