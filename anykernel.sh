@@ -220,7 +220,7 @@ replace_string default.prop "ro.secure=0" "ro.secure=1" "ro.secure=0";
 # Felica
 insert_line init.qcom.rc "import init.carrier.rc" after "import init.qcom.power.rc" "import init.carrier.rc";
 backup_file ueventd.qcom.rc;
-append_file ueventd.qcom.rc "# Felica" ueventd.qcom.patch;
+append_file ueventd.qcom.rc "#JPN FeliCa" ueventd.qcom.patch;
 
 # boeffla tune
 backup_file init.rc;
